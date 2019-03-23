@@ -21,9 +21,39 @@
       </div>
     </nav>
 
-    <div class="container">
-      {{{body}}}
+   <div class="container p-4">
+      <div class="row">
+        <div class="col-md-8">
+          {{{ body  }}} 
+        </div>
+        <div class="col-md-4">
+          {{>stats this}}
+          {{>popular this}}
+          {{>comments this}}
+        </div>
+      </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white">
+      <div class="container p-2">
+        <div class="row">
+          <div class="mx-auto text-center">
+            <p>PetSocial.net | &copy; Copyright 2019, All rights reserved</p>
+            <p>
+              <i class="fab fa-twitter-square fa-2x"></i>
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- SCRIPTS -->
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="/public/js/scripts.js"></script>
 
   </body>
 </html>

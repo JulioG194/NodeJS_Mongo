@@ -1,7 +1,7 @@
 module.exports = {
 
     database: {
-            URI: 'mongodb://127.0.0.1:27017/petsocial4'
+            URI: 'mongodb://localhost/petsocial3'
 
     }
 
