@@ -6,3 +6,11 @@ For this, MongoDB has been used as a database, current powerful tool to create n
 
 ## How to run it
 You can run the application using yarn in a development environment that is currently running on http://localhost:3002/
+
+# DEMO
+
+![](https://github.com/JulioG194/NodeJS_Mongo/blob/master/src/public/img/petsocial.jpg?raw=true)
+
+![](https://github.com/JulioG194/NodeJS_Mongo/blob/master/src/public/img/petsocial2.jpg?raw=true)
+
+![](https://github.com/JulioG194/NodeJS_Mongo/blob/master/src/public/img/petsocial3.jpg?raw=true)
